@@ -27,12 +27,10 @@ img {
   background-color: #FAFAFA;
   border-radius: 20px;
   color: #66D9EF;
+  font-family: 'Life Savers', cursive;
   font-size: 32px;
+  font-weight: bold;
   line-height: 125px;
   text-align: center;
   text-decoration: none;
-}
-
-.personality-types-page {
-  line-height: 75px;
 }
