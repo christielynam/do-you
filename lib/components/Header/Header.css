@@ -1,14 +1,20 @@
 
 .header {
   height: 200px;
-  /*background-image: url('assets/no-back.png');*/
+  display: flex;
+  justify-content: space-between;
   background-color: #FAFAFA;
   font-family: 'Life Savers', cursive;
 }
 
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
 .app-title,
 .app-tagline {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .app-title {
@@ -23,4 +29,15 @@
   margin-top: 0;
   color: #800080;
   font-size: 32px;
+}
+
+.lightbulb-container {
+  width: 50%;
+  float: right;
+}
+
+.lightbulbs {
+  height: 200px;
+  width: 50%;
+  float: right;
 }

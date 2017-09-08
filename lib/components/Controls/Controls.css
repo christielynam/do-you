@@ -4,9 +4,6 @@
   background-color: #646473;
 }
 
-/*.image-container {
-  width: 50%;
-}*/
 img {
   width: 100%;
 }
@@ -23,7 +20,7 @@ img {
 .personality-types-page,
 .assessments-page {
   height: 125px;
-  width: 200px;
+  width: 225px;
   background-color: #FAFAFA;
   border-radius: 20px;
   color: #66D9EF;
