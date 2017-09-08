@@ -1,0 +1,33 @@
+.controls-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #646473;
+}
+
+img {
+  width: 100%;
+}
+
+.controls-links {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.login-page,
+.mission-page,
+.personality-types-page,
+.assessments-page {
+  height: 125px;
+  width: 225px;
+  background-color: #FAFAFA;
+  border-radius: 20px;
+  color: #66D9EF;
+  font-family: 'Life Savers', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 125px;
+  text-align: center;
+  text-decoration: none;
+}
