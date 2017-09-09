@@ -1,0 +1,96 @@
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #646473;
+}
+
+.input-container {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  /*flex-direction: column;*/
+  /*justify-content: space-around;*/
+  background-color: #FAFAFA;
+}
+
+.left-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-text {
+  margin: 50px 0;
+  color: #5D6675;
+  font-family: 'Life Savers', cursive;
+}
+
+.email-input,
+.password-input,
+.sign-in-btn {
+  height: 50px;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #757575;
+  font-family: 'Life Savers', cursive;
+  font-size: 20px;
+}
+
+.sign-in-btn {
+  background-color: #800080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.password-input {
+  margin: 50px 0;
+}
+
+.sign-up-text {
+  margin: 50px 0;
+  color: #66D9EF;
+  font-family: 'Life Savers', cursive;
+  text-align: center;
+}
+
+.right-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facebook-btn,
+.twitter-btn,
+.google-btn {
+  height: 50px;
+  width: 80%;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Life Savers', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.facebook-btn {
+  background-color: #4761A5;
+}
+
+.twitter-btn {
+  margin: 50px 0;
+  background-color: #4EB8E8;
+}
+
+.google-btn {
+  background-color: #E25739
+}
