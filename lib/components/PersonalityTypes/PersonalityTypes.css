@@ -50,3 +50,7 @@
 .hover-instructions {
   padding: 20px;
 }
+
+.hover-text {
+  display: none;
+}
