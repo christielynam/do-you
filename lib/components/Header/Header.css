@@ -12,6 +12,10 @@
   flex-direction: column;
 }
 
+.home-page {
+  text-decoration: none;
+}
+
 .app-title,
 .app-tagline {
   margin-left: 25px;
