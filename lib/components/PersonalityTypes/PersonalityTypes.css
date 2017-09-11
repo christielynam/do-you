@@ -45,8 +45,18 @@
   font-family: 'Life Savers', cursive;
   font-size: 20px;
   font-weight: bold;
+  animation: transition 1s;
 }
 
 .hover-instructions {
   padding: 20px;
+}
+
+.hover-text {
+  display: none;
+}
+
+.type:hover {
+  transform: scale(1.1)
+
 }
