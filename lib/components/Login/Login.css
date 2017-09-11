@@ -47,6 +47,10 @@
   font-weight: bold;
 }
 
+.sign-in-btn:disabled {
+  opacity: 0.2;
+}
+
 .password-input {
   margin: 50px 0;
 }

@@ -11,14 +11,52 @@
   width: 70%;
   height: 80%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: #FAFAFA;
 }
 
 .personality-title {
-  margin-top: 25px;
+  margin: 25px;
   color: #F07B3B;
   font-family: 'Life Savers', cursive;
   font-size: 50px;
   font-weight: bold;
+  text-align: center;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #66D9EF;
+  border-radius: 20px;
+  color: #FAFAFA;
+  cursor: pointer;
+  font-family: 'Life Savers', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  animation: transition 1s;
+}
+
+.hover-instructions {
+  padding: 20px;
+}
+
+.hover-text {
+  display: none;
+}
+
+.type:hover {
+  transform: scale(1.1)
+
 }
