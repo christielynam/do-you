@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount, shallow } from 'enzyme';
 import Header from '../lib/components/Header/Header';
+import '../lib/components/Header/Header.css';
 
 describe('Header', () => {
   let wrapper;
@@ -26,3 +27,5 @@ describe('Header', () => {
 
     expect(tagline.text()).toEqual('let your Personality shine.');
   })
+
+})
