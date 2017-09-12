@@ -1,0 +1,16 @@
+.type {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #66D9EF;
+  border-radius: 20px;
+  color: #FAFAFA;
+  cursor: pointer;
+  font-family: 'Life Savers', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  animation: transition 1s;
+}
