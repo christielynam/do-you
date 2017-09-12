@@ -1,0 +1,40 @@
+.slide-caption {
+  /*margin-top: 200px;*/
+  padding: 10px;
+  background-color: #646473;
+  color: #66D9EF;
+  font-family: 'Life Savers', cursive;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btn-container {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  background-color: #646473;
+}
+
+.me-btn,
+.not-me-btn {
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #FAFAFA;
+  cursor: pointer;
+  font-family: 'Life Savers', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+}
+
+.me-btn {
+  background-color: #F07B3B
+}
+
+.not-me-btn {
+  background-color: #800080;
+}
