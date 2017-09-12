@@ -28,6 +28,7 @@
   font-family: 'Life Savers', cursive;
   font-size: 30px;
   font-weight: bold;
+  outline: none;
 }
 
 .me-btn {
