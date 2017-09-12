@@ -38,3 +38,10 @@
 .not-me-btn {
   background-color: #800080;
 }
+
+.slide-image {
+  display: inherit;
+  height: 300px;
+  width: unset;
+  margin: auto;
+}
