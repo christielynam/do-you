@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount, shallow } from 'enzyme';
 import Header from '../lib/components/Header/Header';
-import '../lib/components/Header/Header.css';
 
 describe('Header', () => {
   let wrapper;
