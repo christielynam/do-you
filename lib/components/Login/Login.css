@@ -45,6 +45,7 @@
   border: none;
   cursor: pointer;
   font-weight: bold;
+  outline: none;
 }
 
 .sign-in-btn:disabled {
