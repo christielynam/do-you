@@ -26,3 +26,5 @@ describe('Header', () => {
 
     expect(tagline.text()).toEqual('let your Personality shine.');
   })
+
+})
