@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { mount, shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import Login from '../lib/components/Login/Login';
 
 describe('Login', () => {

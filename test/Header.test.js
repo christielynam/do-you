@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { mount, shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import Header from '../lib/components/Header/Header';
 
-describe('Header', () => {
+describe('Header tests', () => {
   let wrapper;
 
   beforeEach(() => {
