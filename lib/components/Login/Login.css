@@ -33,7 +33,7 @@
 .sign-in-btn {
   height: 50px;
   width: 80%;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #757575;
   font-family: 'Life Savers', cursive;
   font-size: 20px;
@@ -44,6 +44,7 @@
   color: #fff;
   border: none;
   cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   outline: none;
 }
@@ -71,16 +72,20 @@
   align-items: center;
 }
 
+.signup-link {
+  color: #F07B3B;
+}
+
 .facebook-btn,
 .twitter-btn,
 .google-btn {
   height: 50px;
   width: 80%;
-  padding: 20px;
+  padding: 10px;
   border: none;
   color: #fff;
   cursor: pointer;
-  font-family: 'Life Savers', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
