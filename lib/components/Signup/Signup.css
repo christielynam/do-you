@@ -1,8 +1,35 @@
 .signup-container {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #646473;
+}
+
+.create-user-form {
+  height: 75%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*align-items: center;*/
+  background-color: #FAFAFA;
+}
+
+.create-account-heading {
+  font-family: 'Life Savers', cursive;
+  font-size: 30px;
+  /*text-align: center;*/
+}
+
+.newuser-name,
+.newuser-email,
+.newuser-password,
+.signup-btn {
+  width: 40%;
+  height: 40px;
+  padding: 10px;
+  font-family: 'Life Savers', cursive;
+  font-size: 20px;
 }
