@@ -1,0 +1,55 @@
+
+.lightbulb-header {
+  width: 100%;
+  height: 60%;
+  /*background-color: purple;*/
+  background-color: #FAFAFA;
+}
+
+.lightbulb-image {
+  width: 100%;
+  height: 400px;
+}
+
+.shine-tagline {
+  padding: 20px;
+  color: #800080;
+  font-family: 'Life Savers', cursive;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+}
+
+.main-container {
+  width: 100%;
+  /*height: 100%;*/
+  display: flex;
+  background-color: #646473;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.main-title {
+  color: #F07B3B;
+  font-family: 'Life Savers', cursive;
+  font-size: 130px;
+}
+
+.purpose-statement {
+  padding: 20px;
+  color: #66D9EF;
+  font-family: 'Life Savers', cursive;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+.main-right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
