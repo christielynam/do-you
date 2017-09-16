@@ -63,3 +63,7 @@
   font-weight: bold;
   outline: none;
 }
+
+.signup-btn:disabled {
+  opacity: 0.2;
+}
