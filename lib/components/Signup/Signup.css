@@ -23,14 +23,11 @@
   align-items: center;
 }
 
-.create-account-heading {
-  font-family: 'Life Savers', cursive;
-  font-size: 30px;
-}
-
+.create-account-heading,
 .social-media-heading {
+  color: #5D6675;
   font-family: 'Life Savers', cursive;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .newuser-name,
