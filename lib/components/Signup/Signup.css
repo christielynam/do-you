@@ -9,7 +9,7 @@
 
 .signup-container {
   width: 60%;
-  height: 75%;
+  height: 80%;
   display: flex;
   background-color: #FAFAFA;
 }
@@ -26,7 +26,6 @@
 .create-account-heading {
   font-family: 'Life Savers', cursive;
   font-size: 30px;
-  /*text-align: center;*/
 }
 
 .social-media-heading {
@@ -40,8 +39,8 @@
 .signup-btn {
   width: 80%;
   height: 40px;
-  padding: 10px;
-  font-family: 'Life Savers', cursive;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
@@ -50,6 +49,17 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;;
   align-items: center;
+}
+
+.signup-btn {
+  padding: 0;
+  background-color: #800080;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  outline: none;
 }
