@@ -51,9 +51,11 @@
 .purpose {
   padding: 20px;
   color: aqua;
-  font-family: 'Life Savers', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 25px;
+  font-weight: 300;
   letter-spacing: 2px;
+  line-height: 1.5;
   text-align: center;
 }
 
