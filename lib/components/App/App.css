@@ -3,7 +3,6 @@
   margin: 0;
 }
 
-/*.app-container {
-  display: flex;
-  flex-direction: column;
-}*/
+body {
+  background: #40404A;
+}
