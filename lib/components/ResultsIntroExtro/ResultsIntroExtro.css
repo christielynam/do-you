@@ -1,0 +1,43 @@
+.intro-extro-container {
+  display: flex;
+}
+
+.intro-extro-type {
+  padding: 20px;
+  border: 2px solid #800080;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-container > h4 {
+  font-family: 'Life Savers', cursive;
+  font-size: 25px;
+  color: #800080;
+}
+
+.main-info > p,
+.extra-info > p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #646473;
+}
+
+.score-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #800080;
+}
+
+.extra-info > h4,
+.keywords {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #800080;
+}
