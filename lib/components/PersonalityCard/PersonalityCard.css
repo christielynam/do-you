@@ -26,15 +26,16 @@
   height: 100%;
   width: 100%;
   border-radius: 20px;
-  padding: 25px;
+  padding: 20px;
   font-family: 'Roboto', sans-serif;
+  overflow: scroll;
 }
 
 .type-text {
   display: none;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
-  text-align: justify;
+  text-align: center;
 }
 
 .description-content:hover {
