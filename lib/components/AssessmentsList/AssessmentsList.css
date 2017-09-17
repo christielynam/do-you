@@ -1,0 +1,46 @@
+.list-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #646473;
+
+}
+
+.test-link-container {
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 2em;
+}
+
+.assessment-list-heading {
+  padding: 25px;
+  color: aqua;
+  font-family: 'Life Savers', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.core-link,
+.career-link,
+.intro-extro-link,
+.heroes-link,
+.movies-link,
+.persuasion-link {
+  height: 225px;
+  width: 225px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAFAFA;
+  border-radius: 20px;
+  color: #F07B3B;
+  font-family: 'Life Savers', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 125px;
+  text-align: center;
+  text-decoration: none;
+}

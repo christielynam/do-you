@@ -1,0 +1,25 @@
+.bulb {
+  width: 175px;
+  /*height: 300px;*/
+  fill: #FAFAFA;
+}
+
+.bulb:hover {
+  fill: yellow;
+}
+
+.bulb-one {
+  height: 400px;
+}
+
+.bulb-two {
+  height: 600px;
+}
+
+.bulb-three {
+  height: 300px;
+}
+
+.bulb-four {
+  height: 500px;
+}

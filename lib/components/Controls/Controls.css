@@ -1,31 +1,71 @@
 .controls-container {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #646473;
+
+}
+
+.welcome-container {
+  height: 25vh;
+  width: 60%;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #646473;
 }
 
-img {
-  width: 100%;
+/*.wordcloud-controls {
+  height: 200px;
+  width: unset;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}*/
+
+.welcome-msg {
+  color: aqua;
+  font-family: 'Life Savers', cursive;
+  font-size: 45px;
+}
+
+.sign-out-btn {
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: aqua;
+  color: #800080;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  outline: none;
 }
 
 .controls-links {
-  width: 50%;
+  height: 60vh;
+  width: 70%;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  background-color: #646473;
 }
 
-.login-page,
-.mission-page,
+.profile-page,
 .personality-types-page,
 .assessments-page {
-  height: 125px;
-  width: 225px;
+  height: 225px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #FAFAFA;
   border-radius: 20px;
-  color: #66D9EF;
+  color: #F07B3B;
   font-family: 'Life Savers', cursive;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: bold;
   line-height: 125px;
   text-align: center;

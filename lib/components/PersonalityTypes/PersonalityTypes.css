@@ -6,9 +6,8 @@
   background-color: #646473;
 }
 
-.types-container {
+.personality-container {
   margin: 60px auto;
-  padding: 20px;
   width: 75%;
   height: 80%;
   display: flex;
@@ -24,20 +23,4 @@
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-}
-
-.grid-container {
-  display: grid;
-}
-
-.hover-instructions {
-  padding: 20px;
-}
-
-.hover-text {
-  display: none;
-}
-
-.type:hover {
-  transform: scale(1.1)
 }
