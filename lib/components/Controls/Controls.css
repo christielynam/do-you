@@ -21,13 +21,14 @@
 }
 
 .sign-out-btn {
-  height: 75px;
-  width: 125px;
+  padding: 20px;
   border: none;
   border-radius: 25px;
   background-color: aqua;
+  color: #800080;
   cursor: pointer;
   font-size: 25px;
+  text-decoration: none;
   outline: none;
 }
 
