@@ -15,54 +15,36 @@
 }
 
 .type:hover {
-  cursor: pointer;
   transform: scale(1.1);
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-out;
 }
 
-.type-description {
+.description-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 25px;
   font-family: 'Roboto', sans-serif;
 }
 
-/* entire container, keeps perspective */
-.flipped {
-	perspective: 1000px;
-}
-	/* flip the pane when clicked */
-	.flipped .content-container, .flipped.hover .content-container {
-		transform: rotateY(180deg);
-	}
-
-.flipped, .front-content, .back-content {
-	width: 320px;
-	height: 480px;
+.type-text {
+  display: none;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: justify;
 }
 
-/* flip speed goes here */
-.content-container {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
+.description-content:hover {
+  display: block;
+  background-color: #800080;
+  color: #fff;
+  transition: all 0.5s ease-in;
 }
 
-/* hide back of pane during swap */
-.front-content, .back-content {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front-content {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back-content {
-	transform: rotateY(180deg);
+.description-content:hover .type-text {
+  display: block;
+  transition: all 0.5s ease-in;
 }
