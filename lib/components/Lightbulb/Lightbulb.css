@@ -1,28 +1,28 @@
 .bulb {
-  width: 200px;
-  height: 300px;
+  width: 175px;
+  /*height: 300px;*/
   fill: #FAFAFA;
 }
 
 .bulb:hover {
   fill: yellow;
   box-shadow: 0 0 60px 30px #fff,  /* inner white */
-        0 0 100px 60px #f0f, /* middle magenta */
-        0 0 140px 90px #0ff; /* outer cyan */
+              0 0 100px 60px #f0f, /* middle magenta */
+              0 0 140px 90px #0ff; /* outer cyan */
 }
 
 .bulb-one {
-  height: 450px;
-}
-
-.bulb-two {
-  height: 650px;
-}
-
-.bulb-three {
   height: 400px;
 }
 
+.bulb-two {
+  height: 600px;
+}
+
+.bulb-three {
+  height: 300px;
+}
+
 .bulb-four {
-  height: 550px;
+  height: 500px;
 }
