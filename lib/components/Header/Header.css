@@ -1,4 +1,4 @@
-  
+
 .header {
   height: 200px;
   display: flex;
@@ -13,6 +13,7 @@
 }
 
 .home-page {
+  cursor: pointer;
   text-decoration: none;
 }
 

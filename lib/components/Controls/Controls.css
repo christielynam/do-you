@@ -27,20 +27,13 @@
   align-items: center;
 }
 
-/*.wordcloud-controls {
-  height: 200px;
-  width: unset;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}*/
-
 .welcome-msg {
   color: #66D9EF;
   font-family: 'Life Savers', cursive;
   font-size: 45px;
 }
 
-.sign-out-btn {
+.sign-out-link {
   padding: 30px;
   border: none;
   border-radius: 15px;
