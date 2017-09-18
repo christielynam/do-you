@@ -1,0 +1,99 @@
+.blend {
+  padding: 20px;
+  border: 2px solid #800080;
+}
+
+.career-heading {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.career-heading > h2 {
+  padding: 20px;
+  font-family: 'Life Savers', cursive;
+  font-size: 40px;
+  color: #800080;
+}
+
+.blend-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #646473;
+  letter-spacing: 1px;
+}
+
+.blend-text > h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #800080;
+}
+
+.blend-extra-info {
+  display: flex;
+}
+
+.complement-conflict {
+  width: 50%;
+  padding: 10px 10px 0 0;
+}
+
+.complement-conflict > h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #800080;
+}
+
+.complement-conflict > p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #646473;
+  letter-spacing: 1px;
+}
+
+.career-matches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career-matches > h2 {
+  padding: 25px;
+  font-family: 'Life Savers', cursive;
+  font-size: 40px;
+  color: #800080;
+}
+
+.career-grid {
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #40404A;
+}
+
+.career-card {
+  width: 30%;
+  padding: 15px;
+}
+
+.career-card > h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: aqua;
+}
+
+.career-card > p {
+  display: none;
+}
+
+.career-card > h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #F07B3B;
+}
