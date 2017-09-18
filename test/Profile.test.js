@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import Mission from '../lib/components/Mission/Mission';
+import Profile from '../lib/components/Profile/Profile';
 
-describe('Mission tests', () => {
+describe('Profile tests', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Mission />)
+    wrapper = shallow(<Profile />)
   })
 
   it('should exist', () => {
