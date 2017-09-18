@@ -1,6 +1,6 @@
 .slide-caption {
   padding: 10px;
-  background-color: #646473;
+  background-color: #40404A;
   color: #66D9EF;
   font-family: 'Life Savers', cursive;
   font-size: 40px;
@@ -12,7 +12,7 @@
   height: 75px;
   display: flex;
   justify-content: center;
-  background-color: #646473;
+  background-color: #40404A;
 }
 
 .me-btn,
