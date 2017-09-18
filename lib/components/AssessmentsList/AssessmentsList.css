@@ -3,12 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #646473;
+  background-color: #40404A;
 
 }
 
 .test-link-container {
-  width: 55%;
+  width: 65%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 2em;
@@ -16,7 +16,7 @@
 
 .assessment-list-heading {
   padding: 25px;
-  color: aqua;
+  color: #66D9EF;
   font-family: 'Life Savers', cursive;
   font-size: 50px;
   text-align: center;
@@ -43,4 +43,15 @@
   line-height: 125px;
   text-align: center;
   text-decoration: none;
+}
+
+.core-link:hover,
+.career-link:hover,
+.intro-extro-link:hover,
+.heroes-link:hover,
+.movies-link:hover,
+.persuasion-link:hover {
+  background: #66D9EF;
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
 }
