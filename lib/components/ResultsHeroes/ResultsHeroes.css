@@ -1,0 +1,27 @@
+.your-personality {
+  padding: 20px;
+  color: #800080;
+  font-family: 'Life Savers', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.personality-card > img {
+  padding: 5px;
+}
+
+.personality-card > h4 {
+  padding: 5px;
+  font-size: 20px;
+  color: #F07B3B;
+}
+
+.personality-card > p {
+  padding: 5px;
+}
+
+.personality-card > h6 {
+  padding: 10px;
+  font-size: 16px;
+  color: #F07B3B;
+}
