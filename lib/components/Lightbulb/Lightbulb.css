@@ -4,7 +4,7 @@
   fill: #FAFAFA;
 }
 
-.bulb:hover {
+.glow:hover {
   fill: yellow;
 }
 
@@ -22,4 +22,45 @@
 
 .bulb-four {
   height: 500px;
+}
+
+.bulb-link {
+  position: relative;
+}
+
+.bulb-text {
+  position: absolute;
+  color: #800080;
+  font-family: 'Life Savers', cursive;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bulb-text:hover {
+  background-color: yellow;
+}
+
+.login {
+  top: 230px;
+  left: 52px;
+  font-size: 33px;
+}
+
+.sign {
+  top: 315px;
+  left: 33px;
+  font-size: 35px;
+
+}
+
+.personalities {
+  top: 475px;
+  font-size: 28px;
+  left: 9px;
+}
+
+.assessments {
+  top: 400px;
+  font-size: 26px;
+  left: 17px;
 }
