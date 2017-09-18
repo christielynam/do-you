@@ -1,25 +1,34 @@
-.controls-container {
+
+.outer-container {
+  height: 80vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #646473;
+  background-color: #40404A;
+}
 
+.controls-container {
+  width: 80%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 20px;
 }
 
 .welcome-container {
   height: 25vh;
-  width: 60%;
+  width: 100%;
   padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #646473;
 }
 
 .welcome-msg {
-  color: aqua;
+  color: #66D9EF;
   font-family: 'Life Savers', cursive;
   font-size: 45px;
 }
@@ -28,7 +37,7 @@
   padding: 30px;
   border: none;
   border-radius: 15px;
-  background-color: aqua;
+  background-color: #66D9EF;
   color: #800080;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -38,12 +47,9 @@
 }
 
 .controls-links {
-  height: 60vh;
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #646473;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2em;
 }
 
 .profile-page,
@@ -54,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FAFAFA;
+  background-color: #66D9EF;
   border-radius: 20px;
   color: #F07B3B;
   font-family: 'Life Savers', cursive;
@@ -63,4 +69,11 @@
   line-height: 125px;
   text-align: center;
   text-decoration: none;
+}
+
+.profile-page:hover,
+.personality-types-page:hover,
+.assessments-page:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
 }

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #646473;
+  background-color: #40404A;
 }
 
 .input-container {
@@ -12,6 +12,7 @@
   height: 75%;
   display: flex;
   background-color: #FAFAFA;
+  border-radius: 20px;
 }
 
 .left-container {

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #646473;
+  background-color: #40404A;
 }
 
 .personality-container {
@@ -14,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #FAFAFA;
+  border-radius: 20px;
 }
 
 .personality-title {
