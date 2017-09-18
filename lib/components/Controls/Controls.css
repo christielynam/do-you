@@ -77,3 +77,10 @@
   text-align: center;
   text-decoration: none;
 }
+
+.profile-page:hover,
+.personality-types-page:hover,
+.assessments-page:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+}
