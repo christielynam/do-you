@@ -23,13 +23,9 @@
 }
 
 .personality-matches {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 1.5em;
-  grid-column-gap: 1.5em;
-  grid-auto-rows: minmax(300px, auto);
-  padding: 10px;
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .personality-card {
@@ -82,4 +78,26 @@
 .description-text:hover .text {
   display: block;
   transition: all 0.5s ease-in;
+}
+
+.personality-card > img {
+  padding: 5px;
+}
+
+.personality-card > h3 {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #F07B3B;
+}
+
+.personality-card > p {
+  padding: 5px;
+}
+
+.personality-card > h4 {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
 }
