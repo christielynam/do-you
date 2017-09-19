@@ -1,12 +1,16 @@
-# React Starter Kit
+# Do You built with React Starter Kit
 
-To install the dependencies:
+Do You was a 2-week self-directed project. It is a visually interactive personality assessment application built using React, React Router and Redux. The backend server was built with Express, Knex, and Postgres
+
+Clone this repo and this [backend repo](https://github.com/christielynam/do-you-postgres)
+
+To install the dependencies (for both):
 
 ```
 npm install
 ```
 
-To fire up a development server:
+To fire up a development server (for both):
 
 ```
 npm start
@@ -14,18 +18,6 @@ npm start
 
 Once the server is running, you can visit:
 
-* `http://localhost:8080/webpack-dev-server/` to run your application.
-* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
+* `http://localhost:8080/webpack-dev-server/` to run the application.
 
-To build the static files:
-
-```js
-npm run build
-```
-
-
-To run tests in Node:
-
-```js
-npm test
-```
+* The backend server will be running on `http://localhost:3000`
