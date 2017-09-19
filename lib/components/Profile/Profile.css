@@ -1,16 +1,13 @@
-.background-container {
-  height: 80vh;
+/*.background-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: #40404A;
-}
+}*/
 
 .profile-container {
   margin: 60px auto;
   width: 75%;
-  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,4 +50,13 @@
 .test-btn:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-out;
+}
+
+button > p {
+  font-size: 30px;
+}
+
+button > .test-type {
+  font-family: 'Life Savers', cursive;
+  font-weight: bold;
 }
