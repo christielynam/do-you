@@ -78,11 +78,4 @@
 .wordcloud-man{
   width: unset;
   height: 400px;
-  position: absolute;
-  top: 60px;
-  left: -125px;
-}
-
-.wordcloud-container {
-  position: relative;
 }
