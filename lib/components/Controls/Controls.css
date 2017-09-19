@@ -39,7 +39,7 @@
   border: none;
   border-radius: 15px;
   background-color: #66D9EF;
-  cursor: pointer;  
+  cursor: pointer;
   text-decoration: none;
   outline: none;
 }
@@ -53,6 +53,7 @@
   font-size: 25px;
   font-weight: bold;
   color: #F07B3B;
+  cursor: pointer;
   outline: none;
 }
 
