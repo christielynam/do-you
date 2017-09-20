@@ -1,6 +1,7 @@
 import * as reducer from '../lib/reducers/database-reducers';
 import mockTests from '../test-helpers/mockTestsData.js';
 
+
 describe('storing user', () => {
   it('should have a default state', () => {
     const defaultUser = null

@@ -3,10 +3,7 @@ import mockPersonalities from '../test-helpers/mockPersonalityData.js';
 import mockSlides from '../test-helpers/mockAssessmentSlides.js';
 import mockResults from '../test-helpers/mockAssessmentResults.js';
 import mockTests from '../test-helpers/mockTestsData.js';
-import fetchMock from 'fetch-mock';
 
-// import publicKey from '../utils/keys';
-// import secretKey from '../utils/keys';
 
 describe('fetchHasErred', () => {
   it('fetchHasErred should return a boolean', () => {
