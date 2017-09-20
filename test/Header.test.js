@@ -9,18 +9,18 @@ describe('Header tests', () => {
     wrapper = shallow(<Header />)
   })
 
-  it('should exist', () => {
+  it.skip('should exist', () => {
 
     expect(wrapper).toBeDefined()
   })
 
-  it('should render an h1 tag', () => {
+  it.skip('should render an h1 tag', () => {
     const title = wrapper.find('.app-title')
 
     expect(title.text()).toEqual('do you.');
   })
 
-  it('should render an h3 tag', () => {
+  it.skip('should render an h3 tag', () => {
     const tagline = wrapper.find('.app-tagline')
 
     expect(tagline.text()).toEqual('let your Personality shine.');
