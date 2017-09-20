@@ -9,7 +9,7 @@ describe('Slide tests', () => {
     wrapper = shallow(<Slide />)
   })
 
-  it('should exist', () => {
+  it.skip('should exist', () => {
     expect(wrapper).toBeDefined()
   })
 

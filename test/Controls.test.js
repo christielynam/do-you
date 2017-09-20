@@ -9,7 +9,7 @@ describe('Controls tests', () => {
     wrapper = shallow(<Controls />)
   })
 
-  it('should exist', () => {
+  it.skip('should exist', () => {
     expect(wrapper).toBeDefined()
   })
 
