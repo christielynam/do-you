@@ -45,6 +45,7 @@
   color: #F07B3B;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  outline: none;
 }
 
 .test-btn:hover {
