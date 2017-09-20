@@ -40,7 +40,8 @@
 
 .slide-image {
   display: inherit;
-  height: 300px;
+  height: 420px;
   width: unset;
   margin: auto;
+  border-radius: 20px;
 }
