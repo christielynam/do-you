@@ -2,7 +2,7 @@
 
 Do You was a 2-week self-directed project. It is a visually interactive personality assessment application built using React, React Router and Redux. The backend server was built with Express, Knex, and Postgres
 
-Clone this repo and this [backend repo](https://github.com/christielynam/do-you-postgres)
+Clone this repo and the [backend repo](https://github.com/christielynam/do-you-postgres)
 
 To install the dependencies (for both):
 
